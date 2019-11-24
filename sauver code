@@ -21,7 +21,7 @@
     {
          try
          {
-	    	System.out.println( "Affichage du HashMap ˆ partir du fichier 'valeurs.sav'");
+	    	System.out.println( "Affichage du HashMap   partir du fichier 'valeurs.sav'");
             FileInputStream fichier = new FileInputStream("valeurs.sav");
 	    	ObjectInputStream fluxObjet = new ObjectInputStream(fichier);
 	    	HashMap <String, Integer> m = (HashMap <String, Integer>) fluxObjet.readObject();
